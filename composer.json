@@ -37,7 +37,7 @@
         {
             "type": "composer",
             "url": "https://openy.cibox.tools:4681"
-        },        
+        },
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
@@ -209,6 +209,9 @@
         "patches": {
             "drupal/core": {
                 "JSONAPI wont install (8.7-specific)": "https://www.drupal.org/files/issues/2019-05-23/jsonapi_2996114.patch"
+            },
+            "drupal/paragraphs": {
+                "3079627 TypeError in migrations": "https://www.drupal.org/files/issues/2019-09-06/3079627-4.paragraphs.Argument-6-passed-to-construct.patch"
             }
         }
     },
