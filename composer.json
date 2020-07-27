@@ -5,13 +5,14 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
+        "zaporylie/composer-drupal-optimizations":"^1.1",
         "ymcatwincities/openy": "8.2.4.6",
         "ymcatwincities/openy_gated_content": "*",
         "composer/installers": "^1.5",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8",
         "cweagans/composer-patches": "~1.0",
-        "drupal/stage_file_proxy": "1.0-alpha3"
+        "drupal/stage_file_proxy": "1.0-alpha3",
     },
     "require-dev": {
         "ymcatwincities/openy-cibox-build": "dev-master",
