@@ -10,7 +10,9 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-recommended": "^8.8",
         "cweagans/composer-patches": "~1.0",
-        "drush/drush": "^10"
+        "drush/drush": "^10",
+        "drupal/devel": "^4.0",
+        "drupal/stage_file_proxy": "^1.0"
     },
     "require-dev": {
         "ymcatwincities/openy-cibox-build": "dev-master",
