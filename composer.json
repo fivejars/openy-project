@@ -14,17 +14,6 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/stage_file_proxy": "1.0-alpha3"
     },
-    "require-dev": {
-        "drupal/drupal-driver": "~1.0",
-        "drupal/drupal-extension": "^3.2",
-        "behat/behat": "^3.0",
-        "behat/mink": "~1.7",
-        "behat/mink-goutte-driver": "~1.2",
-        "emuse/behat-html-formatter": "^0.1.0",
-        "drupal/tqextension": "dev-drupal-8",
-        "integratedexperts/behat-screenshot": "^0.6.2",
-        "consolidation/robo": "^1.1.5"
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": [
