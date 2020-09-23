@@ -15,9 +15,6 @@
         "drupal/stage_file_proxy": "1.0-alpha3"
     },
     "require-dev": {
-        "ymcatwincities/openy-cibox-build": "dev-master",
-        "ymcatwincities/openy-cibox-vm": "dev-master",
-        "ymcatwincities/openy-docksal": "dev-master",
         "drupal/drupal-driver": "~1.0",
         "drupal/drupal-extension": "^3.2",
         "behat/behat": "^3.0",
@@ -34,10 +31,6 @@
         {
             "type": "path",
             "url": "openy_gated_content"
-        },
-        {
-            "type": "composer",
-            "url": "https://openy.cibox.tools:4681"
         },
         {
             "type": "composer",
