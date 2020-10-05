@@ -32,6 +32,10 @@
     "prefer-stable": true,
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/fivejars/openy"
+        },
+        {
             "type": "composer",
             "url": "https://openy.cibox.tools:4681"
         },
@@ -42,10 +46,6 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/fivejars/openy"
         },
         {
             "type": "package",
