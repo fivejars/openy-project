@@ -4,7 +4,7 @@
     "type": "project",
     "license": "GPL-2.0+",
     "require": {
-        "zaporylie/composer-drupal-optimizations":"^1.1",
+        "zaporylie/composer-drupal-optimizations":"^1.1.2",
         "ymcatwincities/openy": "dev-openy_bouquet",
         "composer/installers": "^1.2",
         "drupal/core-composer-scaffold": "^8.8",
