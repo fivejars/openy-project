@@ -37,10 +37,6 @@
         },
         {
             "type": "composer",
-            "url": "https://openy.cibox.tools:4681"
-        },
-        {
-            "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
         {
