@@ -196,7 +196,8 @@
             },
             "ymcatwincities/openy": {
                 "Patch for openy 8.2.4.6 fix getRegion erorrs in themes": "https://gist.githubusercontent.com/hamrant/ae3625a5464f1a5ff67ebe4a15d6ecc9/raw/58bec3bb6acbfc2ccb7b71118a01134ecd16024d/fix_getRegion_erorrs_in_themes.patch",
-                "Display the field_content with any page layout value": "https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/2249.patch"
+                "Display the field_content with any page layout value": "https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/2249.patch",
+                "Enable jquery_ui_tabs contrib module in Open Y profile update hook.": "https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/2241.patch"
             }
         }
     },
