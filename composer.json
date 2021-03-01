@@ -5,13 +5,9 @@
     "license": "GPL-2.0+",
     "require": {
         "zaporylie/composer-drupal-optimizations":"^1.1",
-        "ymcatwincities/openy": "8.2.6.4",
+        "ymcatwincities/openy": "^9.2",
         "ymcatwincities/openy_gated_content": "*",
-        "composer/installers": "^1.5",
-        "drupal/core-composer-scaffold": "^8.8",
-        "drupal/core-recommended": "^8.8",
-        "cweagans/composer-patches": "~1.0",
-        "drupal/stage_file_proxy": "1.0-alpha3",
+        "drupal/stage_file_proxy": "^1.1",
         "drush/drush": "^10.3"
     },
     "minimum-stability": "dev",
@@ -28,18 +24,6 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "library-vakata/jstree",
-                "version": "3.3.8",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://github.com/vakata/jstree/archive/3.3.8.zip",
-                    "type": "zip"
-                }
-            }
         },
         {
             "type": "package",
@@ -151,6 +135,18 @@
                     "type": "zip"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "library-vakata/jstree",
+                "version": "3.3.8",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/vakata/jstree/archive/3.3.8.zip",
+                    "type": "zip"
+                }
+            }
         }
     ],
     "scripts": {
@@ -187,19 +183,7 @@
             "drush/contrib/{$name}": ["type:drupal-drush"]
         },
         "enable-patching": true,
-        "patches": {
-            "drupal/core": {
-                "JSONAPI wont install (8.7-specific)": "https://www.drupal.org/files/issues/2019-05-23/jsonapi_2996114.patch"
-            },
-            "drupal/paragraphs": {
-                "3079627 TypeError in migrations": "https://www.drupal.org/files/issues/2019-09-06/3079627-4.paragraphs.Argument-6-passed-to-construct.patch"
-            },
-            "ymcatwincities/openy": {
-                "Patch for openy 8.2.4.6 fix getRegion erorrs in themes": "https://gist.githubusercontent.com/hamrant/ae3625a5464f1a5ff67ebe4a15d6ecc9/raw/58bec3bb6acbfc2ccb7b71118a01134ecd16024d/fix_getRegion_erorrs_in_themes.patch",
-                "Display the field_content with any page layout value": "https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/2249.patch",
-                "Enable jquery_ui_tabs contrib module in Open Y profile update hook.": "https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/2241.patch"
-            }
-        }
+        "patches": {}
     },
     "config": {
         "bin-dir": "vendor/bin/",
